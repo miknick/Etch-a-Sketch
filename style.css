@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/Images/Free-Pencil-Case-Vector-3.jpg);
+   background-size:26em;
+   font-family: 'Lobster', cursive;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo h1{
+    color: rgba(6, 156, 197, 0.932);
+}
+#logo img{
+   margin-left: 1em;
+    width: 5%;
+}
+#grid{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80vw;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+}
+#buttons{
+ 
+    display: grid;
+    grid-template-columns: repeat(4,5%);
+    margin-top: 2em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+button{
+    color: white;
+    background-color: rgba(6, 156, 197, 0.932);
+    font-family: 'Lobster', cursive;
+    width: 100px;
+    border-radius: 28px;
+    padding: 10px 20px;
+    box-shadow: 1em black;
+    -webkit-box-shadow: 0px 5px 9px -1px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 5px 9px -1px rgba(0,0,0,0.5);
+box-shadow: 0px 5px 9px -1px rgba(0,0,0,0.5);
+}
